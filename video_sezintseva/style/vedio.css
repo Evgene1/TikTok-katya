@@ -1,0 +1,89 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 0.5px solid black;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.img {
+  margin: 0 650px 0 650px;
+}
+
+h1 {
+  padding: 10px 0 10px 0;
+}
+
+button {
+  padding: 15px 15px;
+  font-size: 1.25rem;
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+}
+
+.video {
+  width: 20%;
+  margin: 10px;
+}
+
+.flex-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-video {
+  padding: 0 0 0 265px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  /* video {
+    display: none;
+  } */
+
+  #moba {
+    width: 25px;
+  }
+}
+
+button:hover {
+  z-index: 2;
+  -webkit-transition: ease-in 1.5s;
+  -o-transition: ease-in 1.5s;
+  transition: ease-in 1.5s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
